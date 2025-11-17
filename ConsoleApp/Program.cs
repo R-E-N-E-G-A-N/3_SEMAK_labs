@@ -22,6 +22,8 @@ namespace ConsoleApp
             string balance = Console.ReadLine();
             logic.AddGamer(name, iq, balance);
 
+            Console.WriteLine(logic.GetAll());
+
         }
     }
 }
