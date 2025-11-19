@@ -4,3 +4,9 @@ C:\Users\logan\source\repos\3_SEMAK_labs\Client\obj\Debug\Model.csproj.AssemblyR
 C:\Users\logan\source\repos\3_SEMAK_labs\Client\obj\Debug\Model.csproj.CoreCompileInputs.cache
 C:\Users\logan\source\repos\3_SEMAK_labs\Client\obj\Debug\Client.dll
 C:\Users\logan\source\repos\3_SEMAK_labs\Client\obj\Debug\Client.pdb
+C:\Users\logan\OneDrive\Documente\GitHub\3_SEMAK_labs\Client\bin\Debug\Client.dll
+C:\Users\logan\OneDrive\Documente\GitHub\3_SEMAK_labs\Client\bin\Debug\Client.pdb
+C:\Users\logan\OneDrive\Documente\GitHub\3_SEMAK_labs\Client\obj\Debug\Model.csproj.AssemblyReference.cache
+C:\Users\logan\OneDrive\Documente\GitHub\3_SEMAK_labs\Client\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\logan\OneDrive\Documente\GitHub\3_SEMAK_labs\Client\obj\Debug\Client.dll
+C:\Users\logan\OneDrive\Documente\GitHub\3_SEMAK_labs\Client\obj\Debug\Client.pdb

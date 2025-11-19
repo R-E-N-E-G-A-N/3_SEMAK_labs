@@ -28,14 +28,14 @@ namespace BuisnessLogic
         
         }
 
-        public string GetAll() 
+        public List<string> GetAll() 
         {
         
-            string s = string.Empty;
+            List<string> s = new List<string>();
             foreach (Gamer gamer in gamers) 
             {
 
-                s += gamer.Name + " " + gamer.IQ + " " + gamer.Balance + "\n";
+                s.Add(gamer.Name + " " + gamer.IQ + " " + gamer.Balance);
             
             }
             return s;

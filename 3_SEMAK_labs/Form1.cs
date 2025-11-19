@@ -14,19 +14,17 @@ namespace _3_SEMAK_labs
     public partial class Form1 : Form
     {
 
-        Logic Logic { get; set; }
         public Form1()
         {
             InitializeComponent();
-            Logic = new Logic();
+
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
 
-            Logic.AddGamer(UserName_textbox.Text, IQ_textbox.Text, Balance_textbox.Text);
-            Users_list.Items.Clear();
-            Users_list.Items.Add(Logic.GetAll());
+            AddUser form = new AddUser();
+            form.ShowDialog();
 
         }
     }

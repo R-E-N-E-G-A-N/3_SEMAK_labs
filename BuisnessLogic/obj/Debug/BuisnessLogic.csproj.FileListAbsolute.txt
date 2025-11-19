@@ -7,3 +7,12 @@ C:\Users\logan\source\repos\3_SEMAK_labs\BuisnessLogic\obj\Debug\BuisnessLogic.c
 C:\Users\logan\source\repos\3_SEMAK_labs\BuisnessLogic\obj\Debug\Buisness.22E12408.Up2Date
 C:\Users\logan\source\repos\3_SEMAK_labs\BuisnessLogic\obj\Debug\BuisnessLogic.dll
 C:\Users\logan\source\repos\3_SEMAK_labs\BuisnessLogic\obj\Debug\BuisnessLogic.pdb
+C:\Users\logan\OneDrive\Documente\GitHub\3_SEMAK_labs\BuisnessLogic\bin\Debug\BuisnessLogic.dll
+C:\Users\logan\OneDrive\Documente\GitHub\3_SEMAK_labs\BuisnessLogic\bin\Debug\BuisnessLogic.pdb
+C:\Users\logan\OneDrive\Documente\GitHub\3_SEMAK_labs\BuisnessLogic\bin\Debug\Client.dll
+C:\Users\logan\OneDrive\Documente\GitHub\3_SEMAK_labs\BuisnessLogic\bin\Debug\Client.pdb
+C:\Users\logan\OneDrive\Documente\GitHub\3_SEMAK_labs\BuisnessLogic\obj\Debug\BuisnessLogic.csproj.AssemblyReference.cache
+C:\Users\logan\OneDrive\Documente\GitHub\3_SEMAK_labs\BuisnessLogic\obj\Debug\BuisnessLogic.csproj.CoreCompileInputs.cache
+C:\Users\logan\OneDrive\Documente\GitHub\3_SEMAK_labs\BuisnessLogic\obj\Debug\Buisness.22E12408.Up2Date
+C:\Users\logan\OneDrive\Documente\GitHub\3_SEMAK_labs\BuisnessLogic\obj\Debug\BuisnessLogic.dll
+C:\Users\logan\OneDrive\Documente\GitHub\3_SEMAK_labs\BuisnessLogic\obj\Debug\BuisnessLogic.pdb
