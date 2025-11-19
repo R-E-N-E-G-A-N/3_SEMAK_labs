@@ -15,23 +15,47 @@ namespace _3_SEMAK_labs
     {
 
         Logic Logic { get; set; }
-        public AddUser()
+        public AddUser(Logic logic)
         {
             InitializeComponent();
-            Logic = new Logic();
-        }
-
-        private void button1_Click_1(object sender, EventArgs e)
-        {
-
-            Logic.AddGamer(UserName_textbox.Text, IQ_textbox.Text, Balance_textbox.Text);
-            Users_list.Items.Clear();
+            Logic = logic;
             foreach (string s in Logic.GetAll())
             {
 
                 Users_list.Items.Add(s);
 
             }
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+
+            if(Int32.TryParse(Balance_textbox.Text, out int tempBalance)) 
+            {
+
+                Logic.AddGamer(UserName_textbox.Text, IQ_trackBar.Value, tempBalance);
+                Users_list.Items.Clear();
+                foreach (string s in Logic.GetAll())
+                {
+
+                    Users_list.Items.Add(s);
+
+                }
+
+            }
+            else 
+            {
+
+                MessageBox.Show("неправильно введено значение баланса!");
+            
+            }
+
+        }
+
+        private void IQ_trackBar_Scroll(object sender, EventArgs e)
+        {
+
+            IQ_label.Text = $"{IQ_trackBar.Value}";
 
         }
     }

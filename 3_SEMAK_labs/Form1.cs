@@ -14,16 +14,17 @@ namespace _3_SEMAK_labs
     public partial class Form1 : Form
     {
 
+        Logic Logic { get; set; }
         public Form1()
         {
             InitializeComponent();
-
+            Logic = new Logic();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
 
-            AddUser form = new AddUser();
+            AddUser form = new AddUser(Logic);
             form.ShowDialog();
 
         }

@@ -13,7 +13,7 @@ namespace BuisnessLogic
 
         List<Gamer> gamers = new List<Gamer> ();
 
-        public void AddGamer(string name, string iq, string balance) 
+        public void AddGamer(string name, int iq, int balance) 
         {
 
             Gamer gamer = new Gamer() 

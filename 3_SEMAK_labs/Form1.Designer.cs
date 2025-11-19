@@ -29,13 +29,14 @@
         private void InitializeComponent()
         {
             this.AddUser = new System.Windows.Forms.Button();
+            this.AddOffer = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // AddUser
             // 
             this.AddUser.Cursor = System.Windows.Forms.Cursors.Hand;
             this.AddUser.Location = new System.Drawing.Point(52, 56);
-            this.AddUser.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.AddUser.Margin = new System.Windows.Forms.Padding(4);
             this.AddUser.Name = "AddUser";
             this.AddUser.Size = new System.Drawing.Size(193, 78);
             this.AddUser.TabIndex = 0;
@@ -43,13 +44,26 @@
             this.AddUser.UseVisualStyleBackColor = true;
             this.AddUser.Click += new System.EventHandler(this.button1_Click);
             // 
+            // AddOffer
+            // 
+            this.AddOffer.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.AddOffer.Location = new System.Drawing.Point(52, 196);
+            this.AddOffer.Margin = new System.Windows.Forms.Padding(4);
+            this.AddOffer.Name = "AddOffer";
+            this.AddOffer.Size = new System.Drawing.Size(193, 78);
+            this.AddOffer.TabIndex = 0;
+            this.AddOffer.Text = "Добавить предложение";
+            this.AddOffer.UseVisualStyleBackColor = true;
+            this.AddOffer.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.Controls.Add(this.AddOffer);
             this.Controls.Add(this.AddUser);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -59,6 +73,7 @@
         #endregion
 
         private System.Windows.Forms.Button AddUser;
+        private System.Windows.Forms.Button AddOffer;
     }
 }
 

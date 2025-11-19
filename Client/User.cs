@@ -12,9 +12,9 @@ namespace Model
 
         public string Name { set; get; }
 
-        public string IQ { set; get; }
+        public int IQ { set; get; }
 
-        public string Balance { set; get; }
+        public int Balance { set; get; }
 
     }
 }
