@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.Users_list = new System.Windows.Forms.ListBox();
             this.UserName_textbox = new System.Windows.Forms.TextBox();
             this.Balance = new System.Windows.Forms.Label();
             this.IQ = new System.Windows.Forms.Label();
@@ -37,19 +36,14 @@
             this.IQ_trackBar = new System.Windows.Forms.TrackBar();
             this.Balance_textbox = new System.Windows.Forms.TextBox();
             this.IQ_label = new System.Windows.Forms.Label();
+            this.USERSdataGridView = new System.Windows.Forms.DataGridView();
+            this.nickname_column = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.iq_column = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.balance_column = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.IQ_trackBar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.USERSdataGridView)).BeginInit();
             this.SuspendLayout();
-            // 
-            // Users_list
-            // 
-            this.Users_list.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Users_list.FormattingEnabled = true;
-            this.Users_list.ItemHeight = 25;
-            this.Users_list.Location = new System.Drawing.Point(395, 25);
-            this.Users_list.Margin = new System.Windows.Forms.Padding(4);
-            this.Users_list.Name = "Users_list";
-            this.Users_list.Size = new System.Drawing.Size(551, 329);
-            this.Users_list.TabIndex = 11;
             // 
             // UserName_textbox
             // 
@@ -100,7 +94,7 @@
             // button1
             // 
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.Location = new System.Drawing.Point(363, 404);
+            this.button1.Location = new System.Drawing.Point(391, 404);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(193, 78);
@@ -141,13 +135,65 @@
             this.IQ_label.Text = "0";
             this.IQ_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // USERSdataGridView
+            // 
+            this.USERSdataGridView.AllowUserToAddRows = false;
+            this.USERSdataGridView.AllowUserToDeleteRows = false;
+            this.USERSdataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.USERSdataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.nickname_column,
+            this.iq_column,
+            this.balance_column});
+            this.USERSdataGridView.Location = new System.Drawing.Point(391, 26);
+            this.USERSdataGridView.Name = "USERSdataGridView";
+            this.USERSdataGridView.ReadOnly = true;
+            this.USERSdataGridView.RowHeadersWidth = 51;
+            this.USERSdataGridView.RowTemplate.Height = 24;
+            this.USERSdataGridView.Size = new System.Drawing.Size(556, 357);
+            this.USERSdataGridView.TabIndex = 13;
+            this.USERSdataGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.USERSdataGridView_CellContentClick);
+            // 
+            // nickname_column
+            // 
+            this.nickname_column.HeaderText = "Nickname";
+            this.nickname_column.MinimumWidth = 6;
+            this.nickname_column.Name = "nickname_column";
+            this.nickname_column.Width = 125;
+            // 
+            // iq_column
+            // 
+            this.iq_column.HeaderText = "Уровень IQ";
+            this.iq_column.MinimumWidth = 6;
+            this.iq_column.Name = "iq_column";
+            this.iq_column.Width = 125;
+            // 
+            // balance_column
+            // 
+            this.balance_column.HeaderText = "Баланс";
+            this.balance_column.MinimumWidth = 6;
+            this.balance_column.Name = "balance_column";
+            this.balance_column.Width = 125;
+            // 
+            // button2
+            // 
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button2.Location = new System.Drawing.Point(753, 404);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(193, 78);
+            this.button2.TabIndex = 14;
+            this.button2.Text = "Удалить выделенного пользователя";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // AddUser
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(959, 560);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.USERSdataGridView);
             this.Controls.Add(this.IQ_trackBar);
-            this.Controls.Add(this.Users_list);
             this.Controls.Add(this.Balance_textbox);
             this.Controls.Add(this.UserName_textbox);
             this.Controls.Add(this.Balance);
@@ -158,14 +204,13 @@
             this.Name = "AddUser";
             this.Text = "AddUser";
             ((System.ComponentModel.ISupportInitialize)(this.IQ_trackBar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.USERSdataGridView)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.ListBox Users_list;
         private System.Windows.Forms.TextBox UserName_textbox;
         private System.Windows.Forms.Label Balance;
         private System.Windows.Forms.Label IQ;
@@ -174,5 +219,10 @@
         private System.Windows.Forms.TrackBar IQ_trackBar;
         private System.Windows.Forms.TextBox Balance_textbox;
         private System.Windows.Forms.Label IQ_label;
+        private System.Windows.Forms.DataGridView USERSdataGridView;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nickname_column;
+        private System.Windows.Forms.DataGridViewTextBoxColumn iq_column;
+        private System.Windows.Forms.DataGridViewTextBoxColumn balance_column;
+        private System.Windows.Forms.Button button2;
     }
 }

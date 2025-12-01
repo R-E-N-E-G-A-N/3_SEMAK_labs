@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml;
 
 namespace _3_SEMAK_labs
 {
@@ -19,10 +20,11 @@ namespace _3_SEMAK_labs
         {
             InitializeComponent();
             Logic = logic;
-            foreach (string s in Logic.GetAll())
+            foreach (string s in logic.GetAll()) 
             {
-
-                Users_list.Items.Add(s);
+            
+                var list = s.Split(' ');
+                USERSdataGridView.Rows.Add(list[0], list[1], list[2]);
 
             }
         }
@@ -33,12 +35,44 @@ namespace _3_SEMAK_labs
             if(Int32.TryParse(Balance_textbox.Text, out int tempBalance)) 
             {
 
-                Logic.AddGamer(UserName_textbox.Text, IQ_trackBar.Value, tempBalance);
-                Users_list.Items.Clear();
-                foreach (string s in Logic.GetAll())
+                if (USERSdataGridView.Rows.Count > 0)
                 {
 
-                    Users_list.Items.Add(s);
+                    var user_row = new DataGridViewRow();
+
+                    foreach (DataGridViewRow row in USERSdataGridView.Rows)
+                    {
+
+                        if (row.Cells[0].Value.ToString() == UserName_textbox.Text)
+                        {
+
+                            user_row = row;
+                            break;
+
+                        }
+
+                    }
+                    if (Logic.CheckUser(user_row.Cells[0].Value.ToString()))
+                    {
+
+                        Logic.ChangeUser(user_row.Cells[0].Value.ToString(), Int32.Parse(user_row.Cells[1].Value.ToString()), Int32.Parse(user_row.Cells[2].Value.ToString()));
+                        USERSdataGridView.Rows.Clear();
+                        foreach (string s in Logic.GetAll())
+                        {
+
+                            var list = s.Split(' ');
+                            USERSdataGridView.Rows.Add(list[0], list[1], list[2]);
+
+                        }
+
+                    }
+
+                }
+                else
+                {
+
+                    Logic.AddGamer(UserName_textbox.Text, IQ_trackBar.Value, tempBalance);
+                    USERSdataGridView.Rows.Add(UserName_textbox.Text, IQ_trackBar.Value, tempBalance);
 
                 }
 
@@ -56,6 +90,35 @@ namespace _3_SEMAK_labs
         {
 
             IQ_label.Text = $"{IQ_trackBar.Value}";
+
+        }
+
+        private void UserslistView_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+
+        }
+
+        private void USERSdataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+            
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+            var selected_row = USERSdataGridView.SelectedRows[0];
+            Logic.DeleteUser(selected_row.Cells[0].Value.ToString());
+            USERSdataGridView.Rows.Clear();
+            foreach (string s in Logic.GetAll())
+            {
+
+                var list = s.Split(' ');
+                USERSdataGridView.Rows.Add(list[0], list[1], list[2]);
+
+            }
 
         }
     }

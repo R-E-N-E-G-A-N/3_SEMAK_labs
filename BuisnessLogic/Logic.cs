@@ -42,5 +42,72 @@ namespace BuisnessLogic
         
         }
 
+        public void DeleteUser(string nickname)
+        {
+
+            foreach (var gamer in gamers) 
+            {
+
+                if (gamer.Name == nickname) 
+                {
+                
+                    gamers.Remove(gamer);
+                    break;
+                
+                }
+            
+            }
+
+        }
+
+        public void ChangeUser(string nickname, int iq, int balance) 
+        {
+
+            foreach (var gamer in gamers) 
+            {
+            
+                if (gamer.Name == nickname)
+                {
+
+                    gamers.Remove(gamer);
+                    gamers.Add(new Gamer() 
+                    {
+
+                        Name = nickname,
+                        IQ = iq,
+                        Balance = balance
+
+                    });
+
+                }
+            
+            }
+
+        }
+
+        public bool CheckUser(string nickname) 
+        {
+
+            foreach(var gamer in gamers) 
+            {
+                
+                if (gamer.Name.Equals(nickname)) 
+                {
+                
+                    return true;
+                
+                }
+                else 
+                {
+                
+                    return false;
+                
+                }
+            
+            }
+            return false;
+
+        }
+
     }
 }
