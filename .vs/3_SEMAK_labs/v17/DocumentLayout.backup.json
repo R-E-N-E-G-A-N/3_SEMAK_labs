@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{78392633-E736-4048-BC6D-57A71E51C2C1}|3_SEMAK_labs\\WindowsForm.csproj|C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\3_semak_labs\\adduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{78392633-E736-4048-BC6D-57A71E51C2C1}|3_SEMAK_labs\\WindowsForm.csproj|solutionrelative:3_semak_labs\\adduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{581EFF4B-8194-42BC-954D-1FC6546E0B86}|BuisnessLogic\\BuisnessLogic.csproj|C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\buisnesslogic\\logic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{581EFF4B-8194-42BC-954D-1FC6546E0B86}|BuisnessLogic\\BuisnessLogic.csproj|solutionrelative:buisnesslogic\\logic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{178DFB00-93C4-466E-98BE-54791B8E5926}|Client\\Model.csproj|C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\client\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{178DFB00-93C4-466E-98BE-54791B8E5926}|Client\\Model.csproj|solutionrelative:client\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{78392633-E736-4048-BC6D-57A71E51C2C1}|3_SEMAK_labs\\WindowsForm.csproj|c:\\users\\logan\\onedrive\\documente\\github\\3_semak_labs\\3_semak_labs\\adduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{78392633-E736-4048-BC6D-57A71E51C2C1}|3_SEMAK_labs\\WindowsForm.csproj|solutionrelative:3_semak_labs\\adduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{178DFB00-93C4-466E-98BE-54791B8E5926}|Client\\Model.csproj|C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\client\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{178DFB00-93C4-466E-98BE-54791B8E5926}|Client\\Model.csproj|solutionrelative:client\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{78392633-E736-4048-BC6D-57A71E51C2C1}|3_SEMAK_labs\\WindowsForm.csproj|C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\3_semak_labs\\adduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{78392633-E736-4048-BC6D-57A71E51C2C1}|3_SEMAK_labs\\WindowsForm.csproj|solutionrelative:3_semak_labs\\adduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{78392633-E736-4048-BC6D-57A71E51C2C1}|3_SEMAK_labs\\WindowsForm.csproj|C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\3_semak_labs\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -34,17 +34,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Logic.cs",
               "DocumentMoniker": "C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\BuisnessLogic\\Logic.cs",
               "RelativeDocumentMoniker": "BuisnessLogic\\Logic.cs",
-              "ToolTip": "C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\BuisnessLogic\\Logic.cs",
-              "RelativeToolTip": "BuisnessLogic\\Logic.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAIwFEAAAARAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\BuisnessLogic\\Logic.cs*",
+              "RelativeToolTip": "BuisnessLogic\\Logic.cs*",
+              "ViewState": "AgIAADgAAAAAAAAAAAAgwFAAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-17T16:39:06.62Z",
               "IsPinned": true,
@@ -58,14 +58,14 @@
               "RelativeDocumentMoniker": "3_SEMAK_labs\\AddUser.cs",
               "ToolTip": "C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\3_SEMAK_labs\\AddUser.cs",
               "RelativeToolTip": "3_SEMAK_labs\\AddUser.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAuwCgAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAkwCgAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-19T05:36:29.645Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "AddUser.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\3_SEMAK_labs\\AddUser.cs",
               "RelativeDocumentMoniker": "3_SEMAK_labs\\AddUser.cs",
@@ -102,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\Client\\User.cs",
               "RelativeDocumentMoniker": "Client\\User.cs",
