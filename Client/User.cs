@@ -7,8 +7,12 @@ using System.Threading.Tasks;
 namespace Model
 
 {
-    public class Gamer
+    /// <summary>
+    /// Сущность геймера, реализующая интерфейс IDomainObject
+    /// </summary>
+    public class Gamer : DataAccessLayer.IDomainObject
     {
+        public int Id { get; set; }
 
         public string Name { set; get; }
 
