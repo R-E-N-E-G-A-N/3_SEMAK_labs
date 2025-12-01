@@ -11,12 +11,12 @@ namespace BuisnessLogic
     public class Logic
     {
 
-        List<Gamer> gamers = new List<Gamer> ();
+        List<User> gamers = new List<User> ();
 
-        public void AddGamer(string name, int iq, int balance) 
+        public void AddUser(string name, int iq, int balance) 
         {
 
-            Gamer gamer = new Gamer() 
+            User gamer = new User() 
             {
             
                 Name = name,
@@ -32,7 +32,7 @@ namespace BuisnessLogic
         {
         
             List<string> s = new List<string>();
-            foreach (Gamer gamer in gamers) 
+            foreach (User gamer in gamers) 
             {
 
                 s.Add(gamer.Name + " " + gamer.IQ + " " + gamer.Balance);
@@ -70,7 +70,7 @@ namespace BuisnessLogic
                 {
 
                     gamers.Remove(gamer);
-                    gamers.Add(new Gamer() 
+                    gamers.Add(new User() 
                     {
 
                         Name = nickname,

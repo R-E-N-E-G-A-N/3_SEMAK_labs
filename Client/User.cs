@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Client;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 namespace Model
 
 {
-    public class Gamer
+    public class User : IDomainObject
     {
 
         public string Name { set; get; }
@@ -16,5 +17,6 @@ namespace Model
 
         public int Balance { set; get; }
 
+        public int Id { get; set; }
     }
 }

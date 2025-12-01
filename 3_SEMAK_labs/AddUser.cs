@@ -29,49 +29,25 @@ namespace _3_SEMAK_labs
             }
         }
 
+
         private void button1_Click_1(object sender, EventArgs e)
         {
 
             if(Int32.TryParse(Balance_textbox.Text, out int tempBalance)) 
             {
 
-                if (USERSdataGridView.Rows.Count > 0)
+                string user = UserName_textbox.Text + " " + IQ_trackBar.Value.ToString() + " " + Balance_textbox.Text;
+
+                if (Logic.GetAll().Contains(user))
                 {
 
-                    var user_row = new DataGridViewRow();
-
-                    foreach (DataGridViewRow row in USERSdataGridView.Rows)
-                    {
-
-                        if (row.Cells[0].Value.ToString() == UserName_textbox.Text)
-                        {
-
-                            user_row = row;
-                            break;
-
-                        }
-
-                    }
-                    if (Logic.CheckUser(user_row.Cells[0].Value.ToString()))
-                    {
-
-                        Logic.ChangeUser(user_row.Cells[0].Value.ToString(), Int32.Parse(user_row.Cells[1].Value.ToString()), Int32.Parse(user_row.Cells[2].Value.ToString()));
-                        USERSdataGridView.Rows.Clear();
-                        foreach (string s in Logic.GetAll())
-                        {
-
-                            var list = s.Split(' ');
-                            USERSdataGridView.Rows.Add(list[0], list[1], list[2]);
-
-                        }
-
-                    }
+                    MessageBox.Show("Пользователь с таким ником уже введен в систему!");
 
                 }
                 else
                 {
 
-                    Logic.AddGamer(UserName_textbox.Text, IQ_trackBar.Value, tempBalance);
+                    Logic.AddUser(UserName_textbox.Text, IQ_trackBar.Value, tempBalance);
                     USERSdataGridView.Rows.Add(UserName_textbox.Text, IQ_trackBar.Value, tempBalance);
 
                 }
@@ -99,27 +75,31 @@ namespace _3_SEMAK_labs
 
         }
 
-        private void USERSdataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void USERSdataGridView_CellValueChanged(object sender, DataGridViewCellEventArgs e)
         {
-
             
-
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
 
-            var selected_row = USERSdataGridView.SelectedRows[0];
-            Logic.DeleteUser(selected_row.Cells[0].Value.ToString());
-            USERSdataGridView.Rows.Clear();
-            foreach (string s in Logic.GetAll())
+            if (USERSdataGridView.SelectedRows.Count != 0)
             {
 
-                var list = s.Split(' ');
-                USERSdataGridView.Rows.Add(list[0], list[1], list[2]);
+                var selected_row = USERSdataGridView.SelectedRows[0];
+                Logic.DeleteUser(selected_row.Cells[0].Value.ToString());
+                USERSdataGridView.Rows.Clear();
+                foreach (string s in Logic.GetAll())
+                {
+
+                    var list = s.Split(' ');
+                    USERSdataGridView.Rows.Add(list[0], list[1], list[2]);
+
+                }
 
             }
 
         }
+
     }
 }

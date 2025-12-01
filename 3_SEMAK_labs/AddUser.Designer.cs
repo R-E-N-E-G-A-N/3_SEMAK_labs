@@ -49,20 +49,18 @@
             // 
             this.UserName_textbox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.UserName_textbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.UserName_textbox.Location = new System.Drawing.Point(182, 54);
-            this.UserName_textbox.Margin = new System.Windows.Forms.Padding(4);
+            this.UserName_textbox.Location = new System.Drawing.Point(136, 44);
             this.UserName_textbox.Name = "UserName_textbox";
-            this.UserName_textbox.Size = new System.Drawing.Size(184, 27);
+            this.UserName_textbox.Size = new System.Drawing.Size(138, 22);
             this.UserName_textbox.TabIndex = 10;
             // 
             // Balance
             // 
             this.Balance.AutoSize = true;
             this.Balance.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Balance.Location = new System.Drawing.Point(16, 245);
-            this.Balance.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Balance.Location = new System.Drawing.Point(12, 199);
             this.Balance.Name = "Balance";
-            this.Balance.Size = new System.Drawing.Size(106, 31);
+            this.Balance.Size = new System.Drawing.Size(85, 25);
             this.Balance.TabIndex = 5;
             this.Balance.Text = "Баланс";
             this.Balance.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -71,10 +69,9 @@
             // 
             this.IQ.AutoSize = true;
             this.IQ.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.IQ.Location = new System.Drawing.Point(16, 149);
-            this.IQ.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.IQ.Location = new System.Drawing.Point(12, 121);
             this.IQ.Name = "IQ";
-            this.IQ.Size = new System.Drawing.Size(155, 31);
+            this.IQ.Size = new System.Drawing.Size(122, 25);
             this.IQ.TabIndex = 6;
             this.IQ.Text = "Уровень IQ";
             this.IQ.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -83,10 +80,9 @@
             // 
             this.UserName.AutoSize = true;
             this.UserName.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.UserName.Location = new System.Drawing.Point(16, 50);
-            this.UserName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.UserName.Location = new System.Drawing.Point(12, 41);
             this.UserName.Name = "UserName";
-            this.UserName.Size = new System.Drawing.Size(112, 31);
+            this.UserName.Size = new System.Drawing.Size(89, 25);
             this.UserName.TabIndex = 7;
             this.UserName.Text = "Никейм";
             this.UserName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -94,10 +90,9 @@
             // button1
             // 
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.Location = new System.Drawing.Point(391, 404);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
+            this.button1.Location = new System.Drawing.Point(293, 328);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(193, 78);
+            this.button1.Size = new System.Drawing.Size(145, 63);
             this.button1.TabIndex = 4;
             this.button1.Text = "Добавить пользователя";
             this.button1.UseVisualStyleBackColor = true;
@@ -106,10 +101,11 @@
             // IQ_trackBar
             // 
             this.IQ_trackBar.LargeChange = 1;
-            this.IQ_trackBar.Location = new System.Drawing.Point(182, 158);
+            this.IQ_trackBar.Location = new System.Drawing.Point(136, 128);
+            this.IQ_trackBar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.IQ_trackBar.Maximum = 200;
             this.IQ_trackBar.Name = "IQ_trackBar";
-            this.IQ_trackBar.Size = new System.Drawing.Size(146, 56);
+            this.IQ_trackBar.Size = new System.Drawing.Size(110, 45);
             this.IQ_trackBar.TabIndex = 12;
             this.IQ_trackBar.Scroll += new System.EventHandler(this.IQ_trackBar_Scroll);
             // 
@@ -117,20 +113,18 @@
             // 
             this.Balance_textbox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.Balance_textbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Balance_textbox.Location = new System.Drawing.Point(182, 249);
-            this.Balance_textbox.Margin = new System.Windows.Forms.Padding(4);
+            this.Balance_textbox.Location = new System.Drawing.Point(136, 202);
             this.Balance_textbox.Name = "Balance_textbox";
-            this.Balance_textbox.Size = new System.Drawing.Size(184, 27);
+            this.Balance_textbox.Size = new System.Drawing.Size(138, 22);
             this.Balance_textbox.TabIndex = 10;
             // 
             // IQ_label
             // 
             this.IQ_label.AutoSize = true;
             this.IQ_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.IQ_label.Location = new System.Drawing.Point(337, 158);
-            this.IQ_label.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.IQ_label.Location = new System.Drawing.Point(253, 128);
             this.IQ_label.Name = "IQ_label";
-            this.IQ_label.Size = new System.Drawing.Size(29, 31);
+            this.IQ_label.Size = new System.Drawing.Size(24, 25);
             this.IQ_label.TabIndex = 7;
             this.IQ_label.Text = "0";
             this.IQ_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -144,20 +138,21 @@
             this.nickname_column,
             this.iq_column,
             this.balance_column});
-            this.USERSdataGridView.Location = new System.Drawing.Point(391, 26);
+            this.USERSdataGridView.Location = new System.Drawing.Point(293, 21);
+            this.USERSdataGridView.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.USERSdataGridView.Name = "USERSdataGridView";
             this.USERSdataGridView.ReadOnly = true;
             this.USERSdataGridView.RowHeadersWidth = 51;
             this.USERSdataGridView.RowTemplate.Height = 24;
-            this.USERSdataGridView.Size = new System.Drawing.Size(556, 357);
+            this.USERSdataGridView.Size = new System.Drawing.Size(417, 290);
             this.USERSdataGridView.TabIndex = 13;
-            this.USERSdataGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.USERSdataGridView_CellContentClick);
             // 
             // nickname_column
             // 
             this.nickname_column.HeaderText = "Nickname";
             this.nickname_column.MinimumWidth = 6;
             this.nickname_column.Name = "nickname_column";
+            this.nickname_column.ReadOnly = true;
             this.nickname_column.Width = 125;
             // 
             // iq_column
@@ -165,6 +160,7 @@
             this.iq_column.HeaderText = "Уровень IQ";
             this.iq_column.MinimumWidth = 6;
             this.iq_column.Name = "iq_column";
+            this.iq_column.ReadOnly = true;
             this.iq_column.Width = 125;
             // 
             // balance_column
@@ -172,15 +168,15 @@
             this.balance_column.HeaderText = "Баланс";
             this.balance_column.MinimumWidth = 6;
             this.balance_column.Name = "balance_column";
+            this.balance_column.ReadOnly = true;
             this.balance_column.Width = 125;
             // 
             // button2
             // 
             this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.Location = new System.Drawing.Point(753, 404);
-            this.button2.Margin = new System.Windows.Forms.Padding(4);
+            this.button2.Location = new System.Drawing.Point(565, 328);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(193, 78);
+            this.button2.Size = new System.Drawing.Size(145, 63);
             this.button2.TabIndex = 14;
             this.button2.Text = "Удалить выделенного пользователя";
             this.button2.UseVisualStyleBackColor = true;
@@ -188,9 +184,9 @@
             // 
             // AddUser
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(959, 560);
+            this.ClientSize = new System.Drawing.Size(719, 455);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.USERSdataGridView);
             this.Controls.Add(this.IQ_trackBar);
@@ -201,6 +197,7 @@
             this.Controls.Add(this.IQ_label);
             this.Controls.Add(this.UserName);
             this.Controls.Add(this.button1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "AddUser";
             this.Text = "AddUser";
             ((System.ComponentModel.ISupportInitialize)(this.IQ_trackBar)).EndInit();
