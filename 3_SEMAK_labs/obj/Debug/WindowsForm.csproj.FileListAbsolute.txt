@@ -31,4 +31,3 @@ C:\Users\logan\OneDrive\Documente\GitHub\3_SEMAK_labs\3_SEMAK_labs\obj\Debug\Win
 C:\Users\logan\OneDrive\Documente\GitHub\3_SEMAK_labs\3_SEMAK_labs\obj\Debug\3_SEMAK_labs.exe
 C:\Users\logan\OneDrive\Documente\GitHub\3_SEMAK_labs\3_SEMAK_labs\obj\Debug\3_SEMAK_labs.pdb
 C:\Users\logan\OneDrive\Documente\GitHub\3_SEMAK_labs\3_SEMAK_labs\obj\Debug\_3_SEMAK_labs.AddUser.resources
-C:\Users\logan\source\repos\3_SEMAK_labs\3_SEMAK_labs\obj\Debug\_3_SEMAK_labs.AddUser.resources
