@@ -71,6 +71,10 @@
       <Project>{178dfb00-93c4-466e-98be-54791b8e5926}</Project>
       <Name>Model</Name>
     </ProjectReference>
+    <ProjectReference Include="..\DataAccesLayer\DataAccesLayer.csproj">
+      <Project>{AD6F7BE4-C305-445C-BDD4-F19913BF3AEE}</Project>
+      <Name>DataAccesLayer</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

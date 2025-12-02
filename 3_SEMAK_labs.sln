@@ -8,10 +8,16 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Client\Model.csproj", "{178DFB00-93C4-466E-98BE-54791B8E5926}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuisnessLogic", "BuisnessLogic\BuisnessLogic.csproj", "{581EFF4B-8194-42BC-954D-1FC6546E0B86}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AD6F7BE4-C305-445C-BDD4-F19913BF3AEE} = {AD6F7BE4-C305-445C-BDD4-F19913BF3AEE}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{9CD6E0D3-243C-4E80-9669-F5EE8BCFF081}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccesLayer", "DataAccesLayer\DataAccesLayer.csproj", "{AD6F7BE4-C305-445C-BDD4-F19913BF3AEE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{178DFB00-93C4-466E-98BE-54791B8E5926} = {178DFB00-93C4-466E-98BE-54791B8E5926}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

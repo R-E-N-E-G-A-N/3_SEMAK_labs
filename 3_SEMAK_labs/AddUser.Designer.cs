@@ -37,10 +37,11 @@
             this.Balance_textbox = new System.Windows.Forms.TextBox();
             this.IQ_label = new System.Windows.Forms.Label();
             this.USERSdataGridView = new System.Windows.Forms.DataGridView();
+            this.button2 = new System.Windows.Forms.Button();
+            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nickname_column = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.iq_column = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.balance_column = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.IQ_trackBar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.USERSdataGridView)).BeginInit();
             this.SuspendLayout();
@@ -102,7 +103,7 @@
             // 
             this.IQ_trackBar.LargeChange = 1;
             this.IQ_trackBar.Location = new System.Drawing.Point(136, 128);
-            this.IQ_trackBar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.IQ_trackBar.Margin = new System.Windows.Forms.Padding(2);
             this.IQ_trackBar.Maximum = 200;
             this.IQ_trackBar.Name = "IQ_trackBar";
             this.IQ_trackBar.Size = new System.Drawing.Size(110, 45);
@@ -135,17 +136,34 @@
             this.USERSdataGridView.AllowUserToDeleteRows = false;
             this.USERSdataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.USERSdataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.ID,
             this.nickname_column,
             this.iq_column,
             this.balance_column});
             this.USERSdataGridView.Location = new System.Drawing.Point(293, 21);
-            this.USERSdataGridView.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.USERSdataGridView.Margin = new System.Windows.Forms.Padding(2);
             this.USERSdataGridView.Name = "USERSdataGridView";
             this.USERSdataGridView.ReadOnly = true;
             this.USERSdataGridView.RowHeadersWidth = 51;
             this.USERSdataGridView.RowTemplate.Height = 24;
             this.USERSdataGridView.Size = new System.Drawing.Size(417, 290);
             this.USERSdataGridView.TabIndex = 13;
+            // 
+            // button2
+            // 
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button2.Location = new System.Drawing.Point(565, 328);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(145, 63);
+            this.button2.TabIndex = 14;
+            this.button2.Text = "Удалить выделенного пользователя";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // ID
+            // 
+            this.ID.HeaderText = "ID";
+            this.ID.Name = "ID";
+            this.ID.ReadOnly = true;
             // 
             // nickname_column
             // 
@@ -171,17 +189,6 @@
             this.balance_column.ReadOnly = true;
             this.balance_column.Width = 125;
             // 
-            // button2
-            // 
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.Location = new System.Drawing.Point(565, 328);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(145, 63);
-            this.button2.TabIndex = 14;
-            this.button2.Text = "Удалить выделенного пользователя";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
             // AddUser
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -197,7 +204,7 @@
             this.Controls.Add(this.IQ_label);
             this.Controls.Add(this.UserName);
             this.Controls.Add(this.button1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "AddUser";
             this.Text = "AddUser";
             ((System.ComponentModel.ISupportInitialize)(this.IQ_trackBar)).EndInit();
@@ -217,9 +224,10 @@
         private System.Windows.Forms.TextBox Balance_textbox;
         private System.Windows.Forms.Label IQ_label;
         private System.Windows.Forms.DataGridView USERSdataGridView;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ID;
         private System.Windows.Forms.DataGridViewTextBoxColumn nickname_column;
         private System.Windows.Forms.DataGridViewTextBoxColumn iq_column;
         private System.Windows.Forms.DataGridViewTextBoxColumn balance_column;
-        private System.Windows.Forms.Button button2;
     }
 }

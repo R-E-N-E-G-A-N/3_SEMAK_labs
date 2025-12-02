@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Client
+namespace Model
 {
-    internal interface IDomainObject
+    public interface IDomainObject
     {
 
         int Id { get; set; }

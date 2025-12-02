@@ -20,13 +20,6 @@ namespace _3_SEMAK_labs
         {
             InitializeComponent();
             Logic = logic;
-            foreach (string s in logic.GetAll()) 
-            {
-            
-                var list = s.Split(' ');
-                USERSdataGridView.Rows.Add(list[0], list[1], list[2]);
-
-            }
         }
 
 
@@ -36,21 +29,10 @@ namespace _3_SEMAK_labs
             if(Int32.TryParse(Balance_textbox.Text, out int tempBalance)) 
             {
 
-                string user = UserName_textbox.Text + " " + IQ_trackBar.Value.ToString() + " " + Balance_textbox.Text;
 
-                if (Logic.GetAll().Contains(user))
-                {
+                Logic.AddUser(UserName_textbox.Text, IQ_trackBar.Value, tempBalance);
+                USERSdataGridView.Refresh();
 
-                    MessageBox.Show("Пользователь с таким ником уже введен в систему!");
-
-                }
-                else
-                {
-
-                    Logic.AddUser(UserName_textbox.Text, IQ_trackBar.Value, tempBalance);
-                    USERSdataGridView.Rows.Add(UserName_textbox.Text, IQ_trackBar.Value, tempBalance);
-
-                }
 
             }
             else 
@@ -78,27 +60,6 @@ namespace _3_SEMAK_labs
         private void USERSdataGridView_CellValueChanged(object sender, DataGridViewCellEventArgs e)
         {
             
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-
-            if (USERSdataGridView.SelectedRows.Count != 0)
-            {
-
-                var selected_row = USERSdataGridView.SelectedRows[0];
-                Logic.DeleteUser(selected_row.Cells[0].Value.ToString());
-                USERSdataGridView.Rows.Clear();
-                foreach (string s in Logic.GetAll())
-                {
-
-                    var list = s.Split(' ');
-                    USERSdataGridView.Rows.Add(list[0], list[1], list[2]);
-
-                }
-
-            }
-
         }
 
     }

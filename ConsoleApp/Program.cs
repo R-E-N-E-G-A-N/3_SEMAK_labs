@@ -20,14 +20,14 @@ namespace ConsoleApp
             string iq = Console.ReadLine();
             Console.WriteLine("Введите баланс пользователя:");
             string balance = Console.ReadLine();
-            logic.AddGamer(name, iq, balance);
+            logic.AddUser(name, Int32.Parse(iq), Int32.Parse(balance));
 
-            foreach (string s in logic.GetAll())
-            {
+            //foreach (string s in logic.GetAll())
+            //{
             
-                Console.WriteLine(s);
+            //    Console.WriteLine(s);
             
-            }
+            //}
 
         }
     }

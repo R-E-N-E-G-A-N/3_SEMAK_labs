@@ -11,9 +11,10 @@ namespace DataAccesLayer
 
         void Add(T entity);
         void Delete(T entity);
-        void ReadAll(T entity);
-        void ReadByID(T entity);
+        IEnumerable<T> ReadAll();
+        IEnumerable<T> ReadByID();
         void Update(T entity);
+        void Save();
 
     }
 }

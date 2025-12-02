@@ -1,6 +1,8 @@
-﻿using Model;
+﻿using DataAccesLayer;
+using Model;
 using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
@@ -11,12 +13,12 @@ namespace BuisnessLogic
     public class Logic
     {
 
-        List<User> gamers = new List<User> ();
+        IRepository<User> repository = new EntityFrameworkRepository<User>();
 
         public void AddUser(string name, int iq, int balance) 
         {
 
-            User gamer = new User() 
+            User user = new User() 
             {
             
                 Name = name,
@@ -24,89 +26,16 @@ namespace BuisnessLogic
                 Balance = balance
             
             };
-            gamers.Add(gamer);
+            repository.Add(user);
+            repository.Save();
         
         }
 
-        public List<string> GetAll() 
+        public IRepository<User> GetDataSource() 
         {
         
-            List<string> s = new List<string>();
-            foreach (User gamer in gamers) 
-            {
-
-                s.Add(gamer.Name + " " + gamer.IQ + " " + gamer.Balance);
-            
-            }
-            return s;
+            return repository;
         
-        }
-
-        public void DeleteUser(string nickname)
-        {
-
-            foreach (var gamer in gamers) 
-            {
-
-                if (gamer.Name == nickname) 
-                {
-                
-                    gamers.Remove(gamer);
-                    break;
-                
-                }
-            
-            }
-
-        }
-
-        public void ChangeUser(string nickname, int iq, int balance) 
-        {
-
-            foreach (var gamer in gamers) 
-            {
-            
-                if (gamer.Name == nickname)
-                {
-
-                    gamers.Remove(gamer);
-                    gamers.Add(new User() 
-                    {
-
-                        Name = nickname,
-                        IQ = iq,
-                        Balance = balance
-
-                    });
-
-                }
-            
-            }
-
-        }
-
-        public bool CheckUser(string nickname) 
-        {
-
-            foreach(var gamer in gamers) 
-            {
-                
-                if (gamer.Name.Equals(nickname)) 
-                {
-                
-                    return true;
-                
-                }
-                else 
-                {
-                
-                    return false;
-                
-                }
-            
-            }
-            return false;
-
         }
 
     }
