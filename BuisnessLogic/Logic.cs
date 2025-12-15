@@ -1,10 +1,7 @@
-﻿using DataAccesLayer;
-using Model;
+﻿using Model;
 using System;
 using System.Collections.Generic;
-using System.Data.Entity;
 using System.Linq;
-using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -13,28 +10,36 @@ namespace BuisnessLogic
     public class Logic
     {
 
-        IRepository<User> repository = new EntityFrameworkRepository<User>();
+        List<Quest> quests = new List<Quest>();
 
-        public void AddUser(string name, int iq, int balance) 
+        public void AddQuest(string name, string day, string place)
         {
 
-            User user = new User() 
+            Quest quest = new Quest() 
             {
-            
+
+                ID = quests.Count,
                 Name = name,
-                IQ = iq,
-                Balance = balance
-            
+                Day = day,
+                Place = place
+
             };
-            repository.Add(user);
-            repository.Save();
+
+            quests.Add(quest);
         
         }
 
-        public IRepository<User> GetDataSource() 
+        public List<string> GetAll() 
         {
         
-            return repository;
+            var list = new List<string>();
+            foreach (Quest quest in quests) 
+            {
+                
+                list.Add($"{quest.Name}.{quest.Day}.{quest.Place}.{quest.ID}");
+            
+            }
+            return list;
         
         }
 
