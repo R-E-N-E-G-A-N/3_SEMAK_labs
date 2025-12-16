@@ -12,7 +12,7 @@ namespace BuisnessLogic
 
         List<string> sortedList = new List<string>();
 
-        public List<string> Sort(List<string> list, string filter) 
+        public List<string> Sort(List<string> list, string filter)
         {
 
             sortedList.Clear();

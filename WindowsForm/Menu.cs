@@ -38,6 +38,7 @@ namespace WindowsForm
                 quest_datagrid.Rows.Add(list);
             
             }
+            place_sort.Items.Add("");
 
         }
 
