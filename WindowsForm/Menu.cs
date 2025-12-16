@@ -106,23 +106,36 @@ namespace WindowsForm
             {
 
                 int id = 0;
-
-                foreach(string s in logic.GetAll()) 
+                foreach (string s in logic.GetAll()) 
                 {
-                
-                    var list = s.Split();
-                    if (list[0] == quest_datagrid.SelectedRows[0].Cells[0].ToString()) 
+
+                    var list = s.Split('.');
+                    if (quest_datagrid.SelectedCells[0].Value.ToString() == list[0]) 
                     {
                     
                         id = Int32.Parse(list[3]);
+                        break;
                     
                     }
                 
                 }
 
                 this.Hide();
-                Form form = new ChangeQuest(quest_datagrid.SelectedCells[0].Value.ToString(), quest_datagrid.SelectedCells[1].Value.ToString(), quest_datagrid.SelectedCells[2].Value.ToString(), id);
+                Form form = new ChangeQuest(quest_datagrid.SelectedCells[0].Value.ToString(), quest_datagrid.SelectedCells[1].Value.ToString(), quest_datagrid.SelectedCells[2].Value.ToString(), id, logic);
                 form.FormClosed += (s, args) => this.Show();
+                form.FormClosed += (s, args) => 
+                {
+                
+                    quest_datagrid.Rows.Clear();
+                    foreach (string quest in logic.GetAll()) 
+                    {
+                    
+                        var list = quest.Split('.');
+                        quest_datagrid.Rows.Add(list[0], list[1], list[2]);
+
+                    }
+                
+                };
                 form.ShowDialog();
 
             }

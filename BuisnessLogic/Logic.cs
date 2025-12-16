@@ -15,7 +15,7 @@ namespace BuisnessLogic
         public void AddQuest(string name, string day, string place)
         {
 
-            Quest quest = new Quest() 
+            Quest quest = new Quest()
             {
 
                 ID = quests.Count,
@@ -25,6 +25,7 @@ namespace BuisnessLogic
 
             };
 
+            Console.WriteLine(quest.ID);
             quests.Add(quest);
         
         }
@@ -40,6 +41,26 @@ namespace BuisnessLogic
             
             }
             return list;
+        
+        }
+
+        public void ChangeQuest(string name, string day, string place, int id) 
+        {
+
+            foreach (Quest quest in quests)
+            {
+
+                if(quest.ID == id) 
+                {
+                
+                    quest.Name = name;
+                    quest.Day = day;
+                    quest.Place = place;
+                    break;
+
+                }
+
+            }
         
         }
 
