@@ -102,6 +102,7 @@ namespace WindowsForm
                         quest_datagrid.Rows.Add(list[0], list[1], list[2]);
 
                     }
+                    sounds.Stop();
                     sounds.PlaySimple(@"add1.mp3");
 
                 }
@@ -235,7 +236,7 @@ namespace WindowsForm
                     }
 
                 }
-
+                sounds.Stop();
                 sounds.PlaySimple(@"delete1.mp3");
 
             }
