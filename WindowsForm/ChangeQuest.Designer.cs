@@ -37,6 +37,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.place_textbox = new System.Windows.Forms.TextBox();
             this.day_textbox = new System.Windows.Forms.ComboBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.tips = new System.Windows.Forms.RichTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -44,7 +46,7 @@
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(1, -1);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(1065, 553);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -54,7 +56,7 @@
             // save_changes
             // 
             this.save_changes.Location = new System.Drawing.Point(192, 421);
-            this.save_changes.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.save_changes.Margin = new System.Windows.Forms.Padding(4);
             this.save_changes.Name = "save_changes";
             this.save_changes.Size = new System.Drawing.Size(175, 52);
             this.save_changes.TabIndex = 1;
@@ -75,7 +77,7 @@
             // name_textbox
             // 
             this.name_textbox.Location = new System.Drawing.Point(703, 268);
-            this.name_textbox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.name_textbox.Margin = new System.Windows.Forms.Padding(4);
             this.name_textbox.Name = "name_textbox";
             this.name_textbox.Size = new System.Drawing.Size(293, 22);
             this.name_textbox.TabIndex = 3;
@@ -103,7 +105,7 @@
             // place_textbox
             // 
             this.place_textbox.Location = new System.Drawing.Point(703, 448);
-            this.place_textbox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.place_textbox.Margin = new System.Windows.Forms.Padding(4);
             this.place_textbox.Name = "place_textbox";
             this.place_textbox.Size = new System.Drawing.Size(293, 22);
             this.place_textbox.TabIndex = 3;
@@ -125,11 +127,30 @@
             this.day_textbox.Size = new System.Drawing.Size(293, 24);
             this.day_textbox.TabIndex = 4;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(699, 29);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(197, 16);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "Добавить описание к квесту:";
+            // 
+            // tips
+            // 
+            this.tips.Location = new System.Drawing.Point(702, 48);
+            this.tips.Name = "tips";
+            this.tips.Size = new System.Drawing.Size(294, 198);
+            this.tips.TabIndex = 7;
+            this.tips.Text = "";
+            // 
             // ChangeQuest
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.Controls.Add(this.tips);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.day_textbox);
             this.Controls.Add(this.place_textbox);
             this.Controls.Add(this.label1);
@@ -139,7 +160,7 @@
             this.Controls.Add(this.save_changes);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ChangeQuest";
             this.Text = "Редактор квеста";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -158,5 +179,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox place_textbox;
         private System.Windows.Forms.ComboBox day_textbox;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.RichTextBox tips;
     }
 }

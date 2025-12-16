@@ -43,6 +43,10 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.day = new System.Windows.Forms.ComboBox();
+            this.day_sort = new System.Windows.Forms.ComboBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.place_sort = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.quest_datagrid)).BeginInit();
             this.SuspendLayout();
@@ -64,7 +68,7 @@
             // 
             this.add_quest_button.BackColor = System.Drawing.Color.Transparent;
             this.add_quest_button.Location = new System.Drawing.Point(185, 450);
-            this.add_quest_button.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.add_quest_button.Margin = new System.Windows.Forms.Padding(4);
             this.add_quest_button.Name = "add_quest_button";
             this.add_quest_button.Size = new System.Drawing.Size(192, 46);
             this.add_quest_button.TabIndex = 1;
@@ -76,7 +80,7 @@
             // 
             this.change_quest_button.BackColor = System.Drawing.Color.Transparent;
             this.change_quest_button.Location = new System.Drawing.Point(185, 503);
-            this.change_quest_button.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.change_quest_button.Margin = new System.Windows.Forms.Padding(4);
             this.change_quest_button.Name = "change_quest_button";
             this.change_quest_button.Size = new System.Drawing.Size(192, 46);
             this.change_quest_button.TabIndex = 2;
@@ -88,12 +92,13 @@
             // 
             this.delete_quest_button.BackColor = System.Drawing.Color.Transparent;
             this.delete_quest_button.Location = new System.Drawing.Point(185, 556);
-            this.delete_quest_button.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.delete_quest_button.Margin = new System.Windows.Forms.Padding(4);
             this.delete_quest_button.Name = "delete_quest_button";
             this.delete_quest_button.Size = new System.Drawing.Size(192, 46);
             this.delete_quest_button.TabIndex = 3;
             this.delete_quest_button.Text = "Удалить квест";
             this.delete_quest_button.UseVisualStyleBackColor = false;
+            this.delete_quest_button.Click += new System.EventHandler(this.delete_quest_button_Click);
             // 
             // quest_datagrid
             // 
@@ -106,14 +111,14 @@
             this.quest_day,
             this.quest_place});
             this.quest_datagrid.Location = new System.Drawing.Point(491, 97);
-            this.quest_datagrid.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.quest_datagrid.Margin = new System.Windows.Forms.Padding(4);
             this.quest_datagrid.MinimumSize = new System.Drawing.Size(13, 0);
             this.quest_datagrid.MultiSelect = false;
             this.quest_datagrid.Name = "quest_datagrid";
             this.quest_datagrid.ReadOnly = true;
             this.quest_datagrid.RowHeadersWidth = 51;
             this.quest_datagrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.quest_datagrid.Size = new System.Drawing.Size(669, 452);
+            this.quest_datagrid.Size = new System.Drawing.Size(669, 378);
             this.quest_datagrid.TabIndex = 4;
             this.quest_datagrid.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.quest_datagrid_CellContentClick);
             // 
@@ -144,7 +149,7 @@
             // name
             // 
             this.name.Location = new System.Drawing.Point(185, 219);
-            this.name.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.name.Margin = new System.Windows.Forms.Padding(4);
             this.name.Name = "name";
             this.name.Size = new System.Drawing.Size(132, 22);
             this.name.TabIndex = 5;
@@ -152,7 +157,7 @@
             // place
             // 
             this.place.Location = new System.Drawing.Point(185, 370);
-            this.place.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.place.Margin = new System.Windows.Forms.Padding(4);
             this.place.Name = "place";
             this.place.Size = new System.Drawing.Size(132, 22);
             this.place.TabIndex = 7;
@@ -207,11 +212,71 @@
             this.day.Size = new System.Drawing.Size(132, 24);
             this.day.TabIndex = 11;
             // 
+            // day_sort
+            // 
+            this.day_sort.AutoCompleteCustomSource.AddRange(new string[] {
+            "",
+            "Понедельник",
+            "Вторник",
+            "Среда",
+            "Четверг",
+            "Пятница",
+            "Суббота",
+            "Воскресенье"});
+            this.day_sort.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.day_sort.FormattingEnabled = true;
+            this.day_sort.Items.AddRange(new object[] {
+            "",
+            "Понедельник",
+            "Вторник",
+            "Среда",
+            "Четверг",
+            "Пятница",
+            "Суббота",
+            "Воскресенье"});
+            this.day_sort.Location = new System.Drawing.Point(703, 479);
+            this.day_sort.Name = "day_sort";
+            this.day_sort.Size = new System.Drawing.Size(457, 24);
+            this.day_sort.TabIndex = 12;
+            this.day_sort.SelectedIndexChanged += new System.EventHandler(this.day_sort_SelectedIndexChanged);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(488, 479);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(188, 16);
+            this.label4.TabIndex = 13;
+            this.label4.Text = "Сортировка по дню недели:";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(488, 518);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(150, 16);
+            this.label5.TabIndex = 13;
+            this.label5.Text = "Сортировка по месту:";
+            // 
+            // place_sort
+            // 
+            this.place_sort.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.place_sort.FormattingEnabled = true;
+            this.place_sort.Location = new System.Drawing.Point(703, 518);
+            this.place_sort.Name = "place_sort";
+            this.place_sort.Size = new System.Drawing.Size(457, 24);
+            this.place_sort.TabIndex = 14;
+            this.place_sort.SelectedIndexChanged += new System.EventHandler(this.place_sort_SelectedIndexChanged);
+            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1261, 673);
+            this.Controls.Add(this.place_sort);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.day_sort);
             this.Controls.Add(this.day);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -251,6 +316,10 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn quest_day;
         private System.Windows.Forms.DataGridViewTextBoxColumn quest_place;
         private System.Windows.Forms.ComboBox day;
+        private System.Windows.Forms.ComboBox day_sort;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.ComboBox place_sort;
     }
 }
 

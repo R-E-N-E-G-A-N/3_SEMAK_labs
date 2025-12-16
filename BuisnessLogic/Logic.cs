@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -11,6 +12,7 @@ namespace BuisnessLogic
     {
 
         List<Quest> quests = new List<Quest>();
+        List<string> tips = new List<string>();
 
         public void AddQuest(string name, string day, string place)
         {
@@ -61,6 +63,61 @@ namespace BuisnessLogic
                 }
 
             }
+        
+        }
+
+        public void DeleteQuest(int id) 
+        {
+        
+            foreach(Quest quest in quests) 
+            {
+            
+                if (quest.ID == id) 
+                {
+                
+                    quests.Remove(quest);
+                    break;
+                    
+                }
+            
+            }
+            int count = 0;
+            foreach (Quest quest in quests)
+            {
+
+                quest.ID = count;
+                count++;
+
+            }
+
+        }
+
+        public void AddTip(string tip, int id) 
+        {
+        
+            tips.Add($"{tip}.{id}");
+        
+        }
+        public string GetTip(int id) 
+        {
+
+            string tip_ = "";
+
+            foreach (string tip in tips) 
+            {
+            
+                var list = tip.Split('.');
+                if (list[1] == id.ToString()) 
+                {
+                
+                    tip_ = list[0];
+                    break;
+                
+                }
+            
+            }
+
+            return tip_;
         
         }
 

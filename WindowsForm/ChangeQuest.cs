@@ -27,6 +27,7 @@ namespace WindowsForm
             place_textbox.Text = place;
             ID = id;
             Logic = logic;
+            tips.Text = logic.GetTip(id);
 
         }
 
@@ -37,6 +38,8 @@ namespace WindowsForm
             {
 
                 Logic.ChangeQuest(name_textbox.Text, day_textbox.Text, place_textbox.Text, ID);
+                Logic.AddTip(tips.Text, ID);
+                new BackgroundMusicPlayer().PlaySimple(@"save1.mp3");
                 this.Close();
             
             }

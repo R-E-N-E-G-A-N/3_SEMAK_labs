@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{787515AF-BD0A-4D94-A754-583BE73AA666}|WindowsForm\\WindowsForm.csproj|c:\\users\\logan\\onedrive\\documente\\github\\3_semak_labs\\windowsform\\changequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{787515AF-BD0A-4D94-A754-583BE73AA666}|WindowsForm\\WindowsForm.csproj|solutionrelative:windowsform\\changequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{787515AF-BD0A-4D94-A754-583BE73AA666}|WindowsForm\\WindowsForm.csproj|C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\windowsform\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{787515AF-BD0A-4D94-A754-583BE73AA666}|WindowsForm\\WindowsForm.csproj|solutionrelative:windowsform\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{787515AF-BD0A-4D94-A754-583BE73AA666}|WindowsForm\\WindowsForm.csproj|C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\windowsform\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{787515AF-BD0A-4D94-A754-583BE73AA666}|WindowsForm\\WindowsForm.csproj|solutionrelative:windowsform\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{787515AF-BD0A-4D94-A754-583BE73AA666}|WindowsForm\\WindowsForm.csproj|C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\windowsform\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{787515AF-BD0A-4D94-A754-583BE73AA666}|WindowsForm\\WindowsForm.csproj|solutionrelative:windowsform\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E0195BFA-01E3-4A38-978F-52E9CC327CF0}|BuisnessLogic\\BuisnessLogic.csproj|c:\\users\\logan\\onedrive\\documente\\github\\3_semak_labs\\buisnesslogic\\logic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0195BFA-01E3-4A38-978F-52E9CC327CF0}|BuisnessLogic\\BuisnessLogic.csproj|solutionrelative:buisnesslogic\\logic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0195BFA-01E3-4A38-978F-52E9CC327CF0}|BuisnessLogic\\BuisnessLogic.csproj|C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\buisnesslogic\\logic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0195BFA-01E3-4A38-978F-52E9CC327CF0}|BuisnessLogic\\BuisnessLogic.csproj|solutionrelative:buisnesslogic\\logic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E0195BFA-01E3-4A38-978F-52E9CC327CF0}|BuisnessLogic\\BuisnessLogic.csproj|C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\buisnesslogic\\sortlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0195BFA-01E3-4A38-978F-52E9CC327CF0}|BuisnessLogic\\BuisnessLogic.csproj|solutionrelative:buisnesslogic\\sortlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{787515AF-BD0A-4D94-A754-583BE73AA666}|WindowsForm\\WindowsForm.csproj|C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\windowsform\\changequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{787515AF-BD0A-4D94-A754-583BE73AA666}|WindowsForm\\WindowsForm.csproj|solutionrelative:windowsform\\changequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{787515AF-BD0A-4D94-A754-583BE73AA666}|WindowsForm\\WindowsForm.csproj|C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\windowsform\\changequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{787515AF-BD0A-4D94-A754-583BE73AA666}|WindowsForm\\WindowsForm.csproj|solutionrelative:windowsform\\changequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{676B60E0-10E3-413C-B058-5F41B29C64CC}|Console\\ConsoleApp.csproj|C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -56,33 +60,48 @@
               "RelativeDocumentMoniker": "WindowsForm\\ChangeQuest.cs",
               "ToolTip": "C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\WindowsForm\\ChangeQuest.cs",
               "RelativeToolTip": "WindowsForm\\ChangeQuest.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAwCYAAABfAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCgAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-15T14:37:33.135Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Menu.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\WindowsForm\\Menu.cs",
               "RelativeDocumentMoniker": "WindowsForm\\Menu.cs",
               "ToolTip": "C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\WindowsForm\\Menu.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "WindowsForm\\Menu.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T10:21:34.341Z"
+              "WhenOpened": "2025-12-15T10:21:34.341Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Logic.cs",
               "DocumentMoniker": "C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\BuisnessLogic\\Logic.cs",
               "RelativeDocumentMoniker": "BuisnessLogic\\Logic.cs",
               "ToolTip": "C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\BuisnessLogic\\Logic.cs",
               "RelativeToolTip": "BuisnessLogic\\Logic.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAYwDkAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAF4AAAAAAAAAAAA5wHEAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T10:27:24.118Z"
+              "WhenOpened": "2025-12-15T10:27:24.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\WindowsForm\\Menu.cs",
+              "RelativeDocumentMoniker": "WindowsForm\\Menu.cs",
+              "ToolTip": "C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\WindowsForm\\Menu.cs",
+              "RelativeToolTip": "WindowsForm\\Menu.cs",
+              "ViewState": "AgIAAL8AAAAAAAAAAAAowMgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T10:50:49.108Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -94,35 +113,12 @@
               "RelativeToolTip": "Console\\Program.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T10:22:16.887Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Menu.cs",
-              "DocumentMoniker": "C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\WindowsForm\\Menu.cs",
-              "RelativeDocumentMoniker": "WindowsForm\\Menu.cs",
-              "ToolTip": "C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\WindowsForm\\Menu.cs",
-              "RelativeToolTip": "WindowsForm\\Menu.cs",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAowEMAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T10:50:49.108Z"
+              "WhenOpened": "2025-12-15T11:03:47.212Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\Console\\Program.cs",
-              "RelativeDocumentMoniker": "Console\\Program.cs",
-              "ToolTip": "C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\Console\\Program.cs",
-              "RelativeToolTip": "Console\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T11:03:47.212Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "ChangeQuest.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\WindowsForm\\ChangeQuest.cs",
               "RelativeDocumentMoniker": "WindowsForm\\ChangeQuest.cs",
@@ -134,7 +130,32 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SortLogic.cs",
+              "DocumentMoniker": "C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\BuisnessLogic\\SortLogic.cs",
+              "RelativeDocumentMoniker": "BuisnessLogic\\SortLogic.cs",
+              "ToolTip": "C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\BuisnessLogic\\SortLogic.cs",
+              "RelativeToolTip": "BuisnessLogic\\SortLogic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T10:13:48.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\Console\\Program.cs",
+              "RelativeDocumentMoniker": "Console\\Program.cs",
+              "ToolTip": "C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\Console\\Program.cs",
+              "RelativeToolTip": "Console\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T10:22:16.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Quest.cs",
               "DocumentMoniker": "C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\Model\\Quest.cs",
               "RelativeDocumentMoniker": "Model\\Quest.cs",
@@ -146,7 +167,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "BackgroundMusicPlayer.cs",
               "DocumentMoniker": "C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\WindowsForm\\BackgroundMusicPlayer.cs",
               "RelativeDocumentMoniker": "WindowsForm\\BackgroundMusicPlayer.cs",
