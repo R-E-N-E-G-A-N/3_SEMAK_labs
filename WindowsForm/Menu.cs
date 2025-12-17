@@ -280,5 +280,13 @@ namespace WindowsForm
             }
 
         }
+
+        private void dude_Click(object sender, EventArgs e)
+        {
+
+            sounds.Stop();
+            sounds.PlaySimple(@"dude1.mp3");
+
+        }
     }
 }

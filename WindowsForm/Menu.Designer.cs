@@ -47,8 +47,10 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.place_sort = new System.Windows.Forms.ComboBox();
+            this.dude = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.quest_datagrid)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dude)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -268,11 +270,25 @@
             this.place_sort.TabIndex = 14;
             this.place_sort.SelectedIndexChanged += new System.EventHandler(this.place_sort_SelectedIndexChanged);
             // 
+            // dude
+            // 
+            this.dude.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.dude.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.dude.Image = ((System.Drawing.Image)(resources.GetObject("dude.Image")));
+            this.dude.Location = new System.Drawing.Point(13, 13);
+            this.dude.Name = "dude";
+            this.dude.Size = new System.Drawing.Size(112, 111);
+            this.dude.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.dude.TabIndex = 15;
+            this.dude.TabStop = false;
+            this.dude.Click += new System.EventHandler(this.dude_Click);
+            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1261, 673);
+            this.Controls.Add(this.dude);
             this.Controls.Add(this.place_sort);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -295,6 +311,7 @@
             this.Load += new System.EventHandler(this.Menu_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.quest_datagrid)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dude)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -320,6 +337,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.ComboBox place_sort;
+        private System.Windows.Forms.PictureBox dude;
     }
 }
 
