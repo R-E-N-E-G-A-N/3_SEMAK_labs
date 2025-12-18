@@ -1,45 +1,69 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\",
+  "WorkspaceRootPath": "C:\\Users\\logan\\source\\repos\\3_SEMAK_labs\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{787515AF-BD0A-4D94-A754-583BE73AA666}|WindowsForm\\WindowsForm.csproj|C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\windowsform\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{787515AF-BD0A-4D94-A754-583BE73AA666}|WindowsForm\\WindowsForm.csproj|solutionrelative:windowsform\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{787515AF-BD0A-4D94-A754-583BE73AA666}|WindowsForm\\WindowsForm.csproj|c:\\users\\logan\\source\\repos\\3_semak_labs\\windowsform\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{787515AF-BD0A-4D94-A754-583BE73AA666}|WindowsForm\\WindowsForm.csproj|solutionrelative:windowsform\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{787515AF-BD0A-4D94-A754-583BE73AA666}|WindowsForm\\WindowsForm.csproj|c:\\users\\logan\\onedrive\\documente\\github\\3_semak_labs\\windowsform\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{787515AF-BD0A-4D94-A754-583BE73AA666}|WindowsForm\\WindowsForm.csproj|solutionrelative:windowsform\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E004ACD3-19BE-4100-9112-EBFDD803B33B}|DataAccesLayer\\DataAccesLayer.csproj|c:\\users\\logan\\source\\repos\\3_semak_labs\\dataacceslayer\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E004ACD3-19BE-4100-9112-EBFDD803B33B}|DataAccesLayer\\DataAccesLayer.csproj|solutionrelative:dataacceslayer\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0195BFA-01E3-4A38-978F-52E9CC327CF0}|BuisnessLogic\\BuisnessLogic.csproj|C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\buisnesslogic\\logic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E0195BFA-01E3-4A38-978F-52E9CC327CF0}|BuisnessLogic\\BuisnessLogic.csproj|C:\\Users\\logan\\source\\repos\\3_SEMAK_labs\\buisnesslogic\\logic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E0195BFA-01E3-4A38-978F-52E9CC327CF0}|BuisnessLogic\\BuisnessLogic.csproj|solutionrelative:buisnesslogic\\logic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{676B60E0-10E3-413C-B058-5F41B29C64CC}|Console\\ConsoleApp.csproj|C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{676B60E0-10E3-413C-B058-5F41B29C64CC}|Console\\ConsoleApp.csproj|solutionrelative:console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E004ACD3-19BE-4100-9112-EBFDD803B33B}|DataAccesLayer\\DataAccesLayer.csproj|c:\\users\\logan\\source\\repos\\3_semak_labs\\dataacceslayer\\entityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E004ACD3-19BE-4100-9112-EBFDD803B33B}|DataAccesLayer\\DataAccesLayer.csproj|solutionrelative:dataacceslayer\\entityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0195BFA-01E3-4A38-978F-52E9CC327CF0}|BuisnessLogic\\BuisnessLogic.csproj|C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\buisnesslogic\\sortlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0195BFA-01E3-4A38-978F-52E9CC327CF0}|BuisnessLogic\\BuisnessLogic.csproj|solutionrelative:buisnesslogic\\sortlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{787515AF-BD0A-4D94-A754-583BE73AA666}|WindowsForm\\WindowsForm.csproj|C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\windowsform\\changequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{787515AF-BD0A-4D94-A754-583BE73AA666}|WindowsForm\\WindowsForm.csproj|solutionrelative:windowsform\\changequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{787515AF-BD0A-4D94-A754-583BE73AA666}|WindowsForm\\WindowsForm.csproj|C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\windowsform\\changequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{787515AF-BD0A-4D94-A754-583BE73AA666}|WindowsForm\\WindowsForm.csproj|solutionrelative:windowsform\\changequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{676B60E0-10E3-413C-B058-5F41B29C64CC}|Console\\Console.csproj|C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{676B60E0-10E3-413C-B058-5F41B29C64CC}|Console\\Console.csproj|solutionrelative:console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC96A02E-F137-42B9-818A-706995EAC52D}|Model\\Model.csproj|C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\model\\quest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BC96A02E-F137-42B9-818A-706995EAC52D}|Model\\Model.csproj|C:\\Users\\logan\\source\\repos\\3_SEMAK_labs\\model\\quest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC96A02E-F137-42B9-818A-706995EAC52D}|Model\\Model.csproj|solutionrelative:model\\quest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{787515AF-BD0A-4D94-A754-583BE73AA666}|WindowsForm\\WindowsForm.csproj|C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\windowsform\\backgroundmusicplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E004ACD3-19BE-4100-9112-EBFDD803B33B}|DataAccesLayer\\DataAccesLayer.csproj|c:\\users\\logan\\source\\repos\\3_semak_labs\\dataacceslayer\\dapperrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E004ACD3-19BE-4100-9112-EBFDD803B33B}|DataAccesLayer\\DataAccesLayer.csproj|solutionrelative:dataacceslayer\\dapperrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E004ACD3-19BE-4100-9112-EBFDD803B33B}|DataAccesLayer\\DataAccesLayer.csproj|c:\\users\\logan\\source\\repos\\3_semak_labs\\dataacceslayer\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E004ACD3-19BE-4100-9112-EBFDD803B33B}|DataAccesLayer\\DataAccesLayer.csproj|solutionrelative:dataacceslayer\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC96A02E-F137-42B9-818A-706995EAC52D}|Model\\Model.csproj|c:\\users\\logan\\source\\repos\\3_semak_labs\\model\\idomainobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC96A02E-F137-42B9-818A-706995EAC52D}|Model\\Model.csproj|solutionrelative:model\\idomainobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{787515AF-BD0A-4D94-A754-583BE73AA666}|WindowsForm\\WindowsForm.csproj|C:\\Users\\logan\\source\\repos\\3_SEMAK_labs\\windowsform\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{787515AF-BD0A-4D94-A754-583BE73AA666}|WindowsForm\\WindowsForm.csproj|solutionrelative:windowsform\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{676B60E0-10E3-413C-B058-5F41B29C64CC}|Console\\ConsoleApp.csproj|C:\\Users\\logan\\source\\repos\\3_SEMAK_labs\\console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{676B60E0-10E3-413C-B058-5F41B29C64CC}|Console\\ConsoleApp.csproj|solutionrelative:console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{787515AF-BD0A-4D94-A754-583BE73AA666}|WindowsForm\\WindowsForm.csproj|c:\\users\\logan\\source\\repos\\3_semak_labs\\windowsform\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{787515AF-BD0A-4D94-A754-583BE73AA666}|WindowsForm\\WindowsForm.csproj|solutionrelative:windowsform\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0195BFA-01E3-4A38-978F-52E9CC327CF0}|BuisnessLogic\\BuisnessLogic.csproj|C:\\Users\\logan\\source\\repos\\3_SEMAK_labs\\buisnesslogic\\sortlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0195BFA-01E3-4A38-978F-52E9CC327CF0}|BuisnessLogic\\BuisnessLogic.csproj|solutionrelative:buisnesslogic\\sortlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{787515AF-BD0A-4D94-A754-583BE73AA666}|WindowsForm\\WindowsForm.csproj|C:\\Users\\logan\\source\\repos\\3_SEMAK_labs\\windowsform\\changequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{787515AF-BD0A-4D94-A754-583BE73AA666}|WindowsForm\\WindowsForm.csproj|solutionrelative:windowsform\\changequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{787515AF-BD0A-4D94-A754-583BE73AA666}|WindowsForm\\WindowsForm.csproj|C:\\Users\\logan\\source\\repos\\3_SEMAK_labs\\windowsform\\changequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{787515AF-BD0A-4D94-A754-583BE73AA666}|WindowsForm\\WindowsForm.csproj|solutionrelative:windowsform\\changequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{676B60E0-10E3-413C-B058-5F41B29C64CC}|Console\\Console.csproj|C:\\Users\\logan\\source\\repos\\3_SEMAK_labs\\console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{676B60E0-10E3-413C-B058-5F41B29C64CC}|Console\\Console.csproj|solutionrelative:console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{787515AF-BD0A-4D94-A754-583BE73AA666}|WindowsForm\\WindowsForm.csproj|C:\\Users\\logan\\source\\repos\\3_SEMAK_labs\\windowsform\\backgroundmusicplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{787515AF-BD0A-4D94-A754-583BE73AA666}|WindowsForm\\WindowsForm.csproj|solutionrelative:windowsform\\backgroundmusicplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -50,27 +74,106 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\logan\\source\\repos\\3_SEMAK_labs\\WindowsForm\\App.config",
+              "RelativeDocumentMoniker": "WindowsForm\\App.config",
+              "ToolTip": "C:\\Users\\logan\\source\\repos\\3_SEMAK_labs\\WindowsForm\\App.config",
+              "RelativeToolTip": "WindowsForm\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-12-18T20:01:04.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ChangeQuest.cs",
-              "DocumentMoniker": "C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\WindowsForm\\ChangeQuest.cs",
-              "RelativeDocumentMoniker": "WindowsForm\\ChangeQuest.cs",
-              "ToolTip": "C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\WindowsForm\\ChangeQuest.cs",
-              "RelativeToolTip": "WindowsForm\\ChangeQuest.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCgAAAAsAAAAAAAAAA==",
+              "Title": "DapperRepository.cs",
+              "DocumentMoniker": "C:\\Users\\logan\\source\\repos\\3_SEMAK_labs\\DataAccesLayer\\DapperRepository.cs",
+              "RelativeDocumentMoniker": "DataAccesLayer\\DapperRepository.cs",
+              "ToolTip": "C:\\Users\\logan\\source\\repos\\3_SEMAK_labs\\DataAccesLayer\\DapperRepository.cs",
+              "RelativeToolTip": "DataAccesLayer\\DapperRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T14:37:33.135Z"
+              "WhenOpened": "2025-12-18T19:34:54.733Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Context.cs",
+              "DocumentMoniker": "C:\\Users\\logan\\source\\repos\\3_SEMAK_labs\\DataAccesLayer\\Context.cs",
+              "RelativeDocumentMoniker": "DataAccesLayer\\Context.cs",
+              "ToolTip": "C:\\Users\\logan\\source\\repos\\3_SEMAK_labs\\DataAccesLayer\\Context.cs",
+              "RelativeToolTip": "DataAccesLayer\\Context.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T19:33:42.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EntityRepository.cs",
+              "DocumentMoniker": "C:\\Users\\logan\\source\\repos\\3_SEMAK_labs\\DataAccesLayer\\EntityRepository.cs",
+              "RelativeDocumentMoniker": "DataAccesLayer\\EntityRepository.cs",
+              "ToolTip": "C:\\Users\\logan\\source\\repos\\3_SEMAK_labs\\DataAccesLayer\\EntityRepository.cs",
+              "RelativeToolTip": "DataAccesLayer\\EntityRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T19:31:55.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\logan\\source\\repos\\3_SEMAK_labs\\DataAccesLayer\\IRepository.cs",
+              "RelativeDocumentMoniker": "DataAccesLayer\\IRepository.cs",
+              "ToolTip": "C:\\Users\\logan\\source\\repos\\3_SEMAK_labs\\DataAccesLayer\\IRepository.cs",
+              "RelativeToolTip": "DataAccesLayer\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T18:21:07.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IDomainObject.cs",
+              "DocumentMoniker": "C:\\Users\\logan\\source\\repos\\3_SEMAK_labs\\Model\\IDomainObject.cs",
+              "RelativeDocumentMoniker": "Model\\IDomainObject.cs",
+              "ToolTip": "C:\\Users\\logan\\source\\repos\\3_SEMAK_labs\\Model\\IDomainObject.cs",
+              "RelativeToolTip": "Model\\IDomainObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T18:19:42.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ChangeQuest.cs",
+              "DocumentMoniker": "C:\\Users\\logan\\source\\repos\\3_SEMAK_labs\\WindowsForm\\ChangeQuest.cs",
+              "RelativeDocumentMoniker": "WindowsForm\\ChangeQuest.cs",
+              "ToolTip": "C:\\Users\\logan\\source\\repos\\3_SEMAK_labs\\WindowsForm\\ChangeQuest.cs",
+              "RelativeToolTip": "WindowsForm\\ChangeQuest.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T14:37:33.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Menu.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\WindowsForm\\Menu.cs",
+              "DocumentMoniker": "C:\\Users\\logan\\source\\repos\\3_SEMAK_labs\\WindowsForm\\Menu.cs",
               "RelativeDocumentMoniker": "WindowsForm\\Menu.cs",
-              "ToolTip": "C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\WindowsForm\\Menu.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "ToolTip": "C:\\Users\\logan\\source\\repos\\3_SEMAK_labs\\WindowsForm\\Menu.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "WindowsForm\\Menu.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-15T10:21:34.341Z",
@@ -80,69 +183,73 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Logic.cs",
-              "DocumentMoniker": "C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\BuisnessLogic\\Logic.cs",
+              "DocumentMoniker": "C:\\Users\\logan\\source\\repos\\3_SEMAK_labs\\BuisnessLogic\\Logic.cs",
               "RelativeDocumentMoniker": "BuisnessLogic\\Logic.cs",
-              "ToolTip": "C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\BuisnessLogic\\Logic.cs",
+              "ToolTip": "C:\\Users\\logan\\source\\repos\\3_SEMAK_labs\\BuisnessLogic\\Logic.cs",
               "RelativeToolTip": "BuisnessLogic\\Logic.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T10:27:24.118Z"
+              "WhenOpened": "2025-12-15T10:27:24.118Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 10,
               "Title": "Menu.cs",
-              "DocumentMoniker": "C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\WindowsForm\\Menu.cs",
+              "DocumentMoniker": "C:\\Users\\logan\\source\\repos\\3_SEMAK_labs\\WindowsForm\\Menu.cs",
               "RelativeDocumentMoniker": "WindowsForm\\Menu.cs",
-              "ToolTip": "C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\WindowsForm\\Menu.cs",
+              "ToolTip": "C:\\Users\\logan\\source\\repos\\3_SEMAK_labs\\WindowsForm\\Menu.cs",
               "RelativeToolTip": "WindowsForm\\Menu.cs",
-              "ViewState": "AgIAAA4BAAAAAAAAAAAYwB8BAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAMBAAAAAAAAAAAAwB8BAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-15T10:50:49.108Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\Console\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\logan\\source\\repos\\3_SEMAK_labs\\Console\\Program.cs",
               "RelativeDocumentMoniker": "Console\\Program.cs",
-              "ToolTip": "C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\Console\\Program.cs",
+              "ToolTip": "C:\\Users\\logan\\source\\repos\\3_SEMAK_labs\\Console\\Program.cs",
               "RelativeToolTip": "Console\\Program.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T11:03:47.212Z"
+              "WhenOpened": "2025-12-15T11:03:47.212Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "ChangeQuest.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\WindowsForm\\ChangeQuest.cs",
+              "DocumentMoniker": "C:\\Users\\logan\\source\\repos\\3_SEMAK_labs\\WindowsForm\\ChangeQuest.cs",
               "RelativeDocumentMoniker": "WindowsForm\\ChangeQuest.cs",
-              "ToolTip": "C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\WindowsForm\\ChangeQuest.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "ToolTip": "C:\\Users\\logan\\source\\repos\\3_SEMAK_labs\\WindowsForm\\ChangeQuest.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "WindowsForm\\ChangeQuest.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T12:43:37.341Z"
+              "WhenOpened": "2025-12-15T12:43:37.341Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "SortLogic.cs",
-              "DocumentMoniker": "C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\BuisnessLogic\\SortLogic.cs",
+              "DocumentMoniker": "C:\\Users\\logan\\source\\repos\\3_SEMAK_labs\\BuisnessLogic\\SortLogic.cs",
               "RelativeDocumentMoniker": "BuisnessLogic\\SortLogic.cs",
-              "ToolTip": "C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\BuisnessLogic\\SortLogic.cs",
+              "ToolTip": "C:\\Users\\logan\\source\\repos\\3_SEMAK_labs\\BuisnessLogic\\SortLogic.cs",
               "RelativeToolTip": "BuisnessLogic\\SortLogic.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T10:13:48.387Z"
+              "WhenOpened": "2025-12-16T10:13:48.387Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\Console\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\logan\\source\\repos\\3_SEMAK_labs\\Console\\Program.cs",
               "RelativeDocumentMoniker": "Console\\Program.cs",
-              "ToolTip": "C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\Console\\Program.cs",
+              "ToolTip": "C:\\Users\\logan\\source\\repos\\3_SEMAK_labs\\Console\\Program.cs",
               "RelativeToolTip": "Console\\Program.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -150,27 +257,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "Quest.cs",
-              "DocumentMoniker": "C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\Model\\Quest.cs",
+              "DocumentMoniker": "C:\\Users\\logan\\source\\repos\\3_SEMAK_labs\\Model\\Quest.cs",
               "RelativeDocumentMoniker": "Model\\Quest.cs",
-              "ToolTip": "C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\Model\\Quest.cs",
+              "ToolTip": "C:\\Users\\logan\\source\\repos\\3_SEMAK_labs\\Model\\Quest.cs",
               "RelativeToolTip": "Model\\Quest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T10:28:38.834Z"
+              "WhenOpened": "2025-12-15T10:28:38.834Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "BackgroundMusicPlayer.cs",
-              "DocumentMoniker": "C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\WindowsForm\\BackgroundMusicPlayer.cs",
+              "DocumentMoniker": "C:\\Users\\logan\\source\\repos\\3_SEMAK_labs\\WindowsForm\\BackgroundMusicPlayer.cs",
               "RelativeDocumentMoniker": "WindowsForm\\BackgroundMusicPlayer.cs",
-              "ToolTip": "C:\\Users\\logan\\OneDrive\\Documente\\GitHub\\3_SEMAK_labs\\WindowsForm\\BackgroundMusicPlayer.cs",
+              "ToolTip": "C:\\Users\\logan\\source\\repos\\3_SEMAK_labs\\WindowsForm\\BackgroundMusicPlayer.cs",
               "RelativeToolTip": "WindowsForm\\BackgroundMusicPlayer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAHAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T11:12:47.224Z"
+              "WhenOpened": "2025-12-15T11:12:47.224Z",
+              "EditorCaption": ""
             }
           ]
         }

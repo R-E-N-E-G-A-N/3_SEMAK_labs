@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Model
 {
-    public class Quest
+    public class Quest : IDomainObject
     {
 
         public int ID { get; set; }
