@@ -1,4 +1,5 @@
-﻿using Model;
+﻿using DataAccesLayer;
+using Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +12,7 @@ namespace BuisnessLogic
     public class Logic
     {
 
-        List<Quest> quests = new List<Quest>();
+        IReposytory<Quest> quests = new EntityRepository<Quest>();
         List<string> tips = new List<string>();
 
         public void AddQuest(string name, string day, string place)
@@ -20,15 +21,15 @@ namespace BuisnessLogic
             Quest quest = new Quest()
             {
 
-                ID = quests.Count,
+                ID = quests.GetReposytory().Count(),
                 Name = name,
                 Day = day,
                 Place = place
 
             };
 
-            Console.WriteLine(quest.ID);
-            quests.Add(quest);
+            quests.Create(quest);
+            quests.Save();
         
         }
 
@@ -36,7 +37,7 @@ namespace BuisnessLogic
         {
         
             var list = new List<string>();
-            foreach (Quest quest in quests) 
+            foreach (Quest quest in quests.GetReposytory()) 
             {
                 
                 list.Add($"{quest.Name}.{quest.Day}.{quest.Place}.{quest.ID}");
@@ -49,45 +50,32 @@ namespace BuisnessLogic
         public void ChangeQuest(string name, string day, string place, int id) 
         {
 
-            foreach (Quest quest in quests)
+            quests.Update(new Quest() 
             {
-
-                if(quest.ID == id) 
-                {
-                
-                    quest.Name = name;
-                    quest.Day = day;
-                    quest.Place = place;
-                    break;
-
-                }
-
-            }
+            
+                Name = name,
+                Day = day,
+                Place = place,
+                ID = id
+            
+            });
         
         }
 
         public void DeleteQuest(int id) 
         {
         
-            foreach(Quest quest in quests) 
+            foreach(Quest quest in quests.GetReposytory()) 
             {
             
                 if (quest.ID == id) 
                 {
                 
-                    quests.Remove(quest);
+                    quests.Delete(quest);
                     break;
                     
                 }
             
-            }
-            int count = 0;
-            foreach (Quest quest in quests)
-            {
-
-                quest.ID = count;
-                count++;
-
             }
 
         }

@@ -98,6 +98,10 @@
     <Compile Include="SortLogic.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\DataAccesLayer\DataAccesLayer.csproj">
+      <Project>{e004acd3-19be-4100-9112-ebfdd803b33b}</Project>
+      <Name>DataAccesLayer</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Model\Model.csproj">
       <Project>{BC96A02E-F137-42B9-818A-706995EAC52D}</Project>
       <Name>Model</Name>

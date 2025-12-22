@@ -1,43 +1,67 @@
-﻿using System;
+﻿using Model;
+using System;
 using System.Collections.Generic;
+using System.Data.Entity.Migrations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace DataAccesLayer
 {
-    internal class EntityRepository<T> : IReposytory<T> where T : class
+    public class EntityRepository<T> : IReposytory<T> where T : class, IDomainObject, new ()
     {
-        public T Quest { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+
+        public Context _context;
+
+        public T Quest { get; set; }
+
+        public EntityRepository()
+        {
+        
+            _context = new Context();
+        
+        }
 
         public void Create(T item)
         {
-            throw new NotImplementedException();
+
+            _context.Set<T>().Add(item);
+
         }
 
         public void Delete(T item)
         {
-            throw new NotImplementedException();
+
+            _context.Set<T>().Remove(item);
+
         }
 
         public void Dispose()
         {
-            throw new NotImplementedException();
+
+            _context.Dispose();
+
         }
 
         public IEnumerable<T> GetReposytory()
         {
-            throw new NotImplementedException();
+
+            return (IEnumerable<T>)_context.quests;
+
         }
 
         public void Save()
         {
-            throw new NotImplementedException();
+
+            _context.SaveChanges();
+
         }
 
         public void Update(T item)
         {
-            throw new NotImplementedException();
+
+            _context.Set<T>().AddOrUpdate(item);
+
         }
     }
 }

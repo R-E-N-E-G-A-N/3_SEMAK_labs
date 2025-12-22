@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DataAccesLayer
 {
-    internal class Context : DbContext
+    public class Context : DbContext
     {
 
         public Context() : base("DBConnection") { }
